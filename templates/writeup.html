@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang=en class="h-full antialiased">
+
+<head>
+    <title>${writeup.title} - Shashi Raj</title>
+</head>
+
+<body class="bg-zinc-900 text-zinc-50">
+    <main class=section-container>
+        <article class="writeup-content glass-card">
+            <header class=writeup-header>
+                <span class=tag>${writeup.category}</span>
+                <h1>${writeup.title}</h1>
+                <div class=writeup-meta>
+                    <span class=date>
+                        <i class="far fa-calendar"></i> ${formatDate(writeup.date)}
+                    </span>
+                    <span class=type>
+                        <i class="fas fa-bookmark"></i> ${writeup.type}
+                    </span>
+                </div>
+            </header>
+            <div class=tools-used>
+                ${writeup.tools.map(tool => `<span>${tool}</span>`).join('')}
+            </div>
+            <div class="content markdown-content">
+            </div>
+            <footer class=writeup-footer>
+                <div class=tags>
+                    ${writeup.tags.map(tag => `
+                    <span class=tag>#${tag}</span>
+                    `).join('')}
+                </div>
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>

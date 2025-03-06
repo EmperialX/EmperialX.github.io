@@ -1,0 +1,19 @@
+{
+    "name": "Shashi Raj - Security Research Portfolio",
+    "short_name": "0xiZen Portfolio",
+    "icons": [
+      {
+        "src": "assets/favicon.ico",
+        "sizes": "16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "assets/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#39BAE6",
+    "background_color": "#0a0f15",
+    "display": "standalone"
+  }

@@ -1,0 +1,131 @@
+{
+  "commands": {
+    "help": {
+      "description": "Shows available commands",
+      "output": [
+        "Available commands:",
+        "System commands:",
+        "  clear      - Clear terminal screen",
+        "  ls         - List directory contents",
+        "  pwd       - Print working directory",
+        "  whoami    - Display current user",
+        "  theme     - Toggle dark/light theme",
+        "  system    - Display system info",
+        "",
+        "Portfolio commands:",
+        "  about     - About me",
+        "  projects  - List all projects",
+        "  skills    - Show my skills",
+        "  contact   - Get contact information",
+        "  experience- Show work experience",
+        "  certs     - List certifications",
+        "",
+        "Type 'help <command>' for more info"
+      ]
+    },
+    "about": {
+      "description": "About me",
+      "output": "Cybersecurity student at National Forensic Sciences University, specializing in security tools development and vulnerability assessments."
+    },
+    "experience": {
+      "description": "Show work experience",
+      "output": [
+        "🔹 Center of Excellence for Cybersecurity, NFSU",
+        "  Security Researcher Intern | Feb 2024 - Present",
+        "  • Improved threat detection by 30%",
+        "  • Reduced security risks by 35%",
+        "  • Optimized incident response by 20%",
+        "",
+        "🔹 Microsoft Cyber Security Engage",
+        "  Cybersecurity Mentee | May 2022 - Aug 2022",
+        "  • Automated security tasks with Python",
+        "  • Conducted digital forensics exercises"
+      ]
+    },
+    "certs": {
+      "description": "List certifications",
+      "output": [
+        "Certifications:",
+        "• Junior Cybersecurity Analyst Path, Cisco",
+        "• Google Cybersecurity Professional Certificate",
+        "• Windows Forensic, Belkasoft"
+      ]
+    },
+    "achievements": {
+      "description": "Show achievements",
+      "output": [
+        "Achievements:",
+        "• NCIIPC 2024, CII Pentester",
+        "• NCIIPC Finalist: Ranked 4th",
+        "• Toyota Tsusho Systems CTF, Ranked 2nd"
+      ]
+    },
+    "skills": {
+      "description": "Show technical skills",
+      "output": [
+        "Technical Skills:",
+        "• Security: Penetration Testing, Vulnerability Assessment",
+        "• Tools: Burp Suite, Wireshark, Metasploit",
+        "• Programming: Python, JavaScript, PowerShell",
+        "• Other: Digital Forensics, Incident Response"
+      ]
+    },
+    "contact": {
+      "description": "Get contact information",
+      "output": [
+        "Contact Information:",
+        "Email: shashijhax@gmail.com",
+        "LinkedIn: linkedin.com/in/infzet",
+        "GitHub: github.com/EmperialX"
+      ]
+    },
+    "social": {
+      "description": "Display social links",
+      "output": [
+        "Social Links:",
+        "GitHub: https://github.com/EmperialX",
+        "LinkedIn: https://linkedin.com/in/infzet",
+        "Medium: https://medium.com/@shashijhax"
+      ]
+    },
+    "ls": {
+      "description": "List directory contents",
+      "output": [
+        "drwxr-xr-x  projects/",
+        "drwxr-xr-x  writeups/",
+        "drwxr-xr-x  certs/",
+        "-rw-r--r--  about.md",
+        "-rw-r--r--  resume.pdf",
+        "-rw-r--r--  contact.txt"
+      ]
+    },
+    "pwd": {
+      "description": "Print working directory",
+      "output": "/home/guest/portfolio"
+    },
+    "system": {
+      "description": "Display system information",
+      "output": [
+        "OS: Portfolio Terminal v1.0.0",
+        "Shell: ShashiShell 1.0",
+        "Theme: Ayu Dark",
+        "Terminal: Terminal.js",
+        "Memory: 512MB / 1024MB",
+        "Uptime: {uptime}"
+      ]
+    }
+  },
+  "easter_eggs": {
+    "matrix": "Wake up, Neo...",
+    "hack": "Access DENIED! Nice try though",
+    "coffee": "☕ Here's your virtual coffee!",
+    "hello": "Hello World! Welcome to my terminal.",
+    "whoami": "guest@shashi.raj:~$",
+    "sudo": "This incident will be reported! 🚨",
+    "exit": "will exit from the terminal",
+    "rm -rf /": "Nice try! 😈",
+    "sudo su": "You're not an admin... yet 😉",
+    ":(){ :|:& };:": "Fork bomb detected! Good attempt though 😎",
+    "ping google.com": "PING google.com: Request timeout. The internet seems broken 🤔"
+  }
+}

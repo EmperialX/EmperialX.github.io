@@ -1,0 +1,52 @@
+{
+    "categories": ["research", "guides", "ctf"],
+    "writeups": [
+        {
+            "id": "ctf-web-challenges-2024",
+            "category": "ctf",
+            "title": "Cracking Recent CTF Web Challenges: Solution Walkthrough",
+            "date": "2024-02-20",
+            "type": "CTF Writeup",
+            "summary": "Comprehensive walkthrough of various CTF web challenges including hash collisions, XSS, SSRF, GraphQL exploitation, JWT forgery, and SQL injection techniques.",
+            "tools": [
+                "Python",
+                "GraphQL",
+                "JWT",
+                "SQLMap",
+                "GoBuster",
+                "JavaScript"
+            ],
+            "tags": [
+                "ctf",
+                "web-security",
+                "xss",
+                "ssrf",
+                "sql-injection",
+                "hash-collision"
+            ],
+            "url": "https://medium.com/@0xizen/cracking-recent-ctf-web-challenges-my-solution-walkthrough-8637346b2e6e"
+        },
+        {
+            "id": "sysinternals-workflow",
+            "category": "guides",
+            "title": "Enhancing Your Workflow with Sysinternals",
+            "date": "2025-01-09",
+            "type": "Technical Guide",
+            "summary": "In-depth guide on utilizing Process Explorer and Sysmon for advanced Windows system analysis, debugging, and forensics investigations.",
+            "tools": ["Process Explorer", "Sysmon", "PsExec", "WinDbg"],
+            "tags": ["windows", "forensics", "sysinternals", "debugging"],
+            "url": "https://medium.com/@0xizen/enhancing-your-workflow-with-sysinternals-process-explorer-and-sysmon-100e8b7f0be8"
+        },
+        {
+            "id": "footprinting-master-index",
+            "category": "guides",
+            "title": "Footprinting & Information Gathering Master Index",
+            "date": "2024-02-20",
+            "type": "Technical Guide",
+            "summary": "Comprehensive guide covering advanced footprinting and information gathering techniques for penetration testing, including OSINT, infrastructure analysis, and cloud enumeration.",
+            "tools": ["DNS Tools", "OSINT Tools", "Cloud Enumeration Tools", "Network Scanners"],
+            "tags": ["footprinting", "reconnaissance", "osint", "pentest"],
+            "url": "https://medium.com/@0xizen/footprinting-information-gathering-master-index-84f00469f45a"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "categories": [
+      "web",
+      "osint",
+      "forensics",
+      "misc",
+      "crypto",
+      "hardware",
+      "pwn"
+    ],
+    "challenges": [
+      {
+        "id": "pentester-notebook",
+        "title": "Pentester Notebook",
+        "category": "web",
+        "difficulty": "Difficult",
+        "points": 40,
+        "description": "Delve into a security researcher's notebook holding pentesting exploits and hidden secrets. Navigate through encryption layers and security defenses to uncover the flag.",
+        "author": "0xizen",
+        "url": "https://pentester-notebook.onrender.com",
+        "tags": ["web", "encryption", "pentesting"]
+      },
+      {
+        "id": "free-trip",
+        "title": "Free-TRIP",
+        "category": "web",
+        "difficulty": "Easy",
+        "points": 20,
+        "description": "Challenge involving a travel discount system. Use the coupon code TRIP18 to begin your journey.",
+        "author": "0xizen",
+        "url": "https://free-trip.onrender.com",
+        "tags": ["web-general"]
+      },
+      {
+        "id": "agent-mission",
+        "title": "Agent-Mission",
+        "category": "web",
+        "difficulty": "Medium",
+        "points": 30,
+        "description": "Become the NFSU agent they're looking for. Infiltrate the endpoint and claim the hidden flag.",
+        "author": "0xizen",
+        "url": "https://agent-mission.onrender.com",
+        "tags": ["web", "authentication"]
+      },
+      {
+        "id": "method-madness",
+        "title": "Method Madness",
+        "category": "web",
+        "difficulty": "Easy",
+        "points": 30,
+        "description": "Challenge focusing on HTTP method manipulation. Think outside the POST office!",
+        "author": "0xiZen",
+        "url": "https://ctf-auth-bypass.onrender.com",
+        "tags": ["web", "http-methods"]
+      },
+      {
+        "id": "sql-sleight",
+        "title": "SQL Sleight",
+        "category": "web",
+        "difficulty": "Medium",
+        "points": 30,
+        "description": "SQL injection challenge requiring careful query manipulation to fetch the flag without detection.",
+        "author": "0xiZen",
+        "url": "https://sql-injection-ctf.onrender.com",
+        "tags": ["web", "sql-injection"]
+      },
+      {
+        "id": "websocket-secrets",
+        "title": "WebSocket Secrets",
+        "category": "web",
+        "difficulty": "Medium",
+        "points": 35,
+        "description": "Interact with an admin bot through WebSocket chat to uncover hidden secrets. No automated scanning allowed.",
+        "author": "0xiZen",
+        "url": "https://websocket-challenge.onrender.com",
+        "tags": ["web", "websockets", "bot-interaction"]
+      }
+    ]
+  }

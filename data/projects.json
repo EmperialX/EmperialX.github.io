@@ -1,0 +1,41 @@
+{
+  "categories": [
+    "security",
+    "automation",
+    "web",
+    "research",
+    "malware",
+    "tools",
+    "exploits"
+  ],
+  "projects": [
+    {
+        "id": "xss-automation",
+        "category": "security",
+        "title": "XSS Automation Tool",
+        "year": "2024",
+        "description": "An advanced tool for identifying and exploiting XSS vulnerabilities in web applications.",
+        "longDescription": "This tool helps hackers identify and exploit cross-site scripting (XSS) vulnerabilities in web applications.",
+        "tools": ["Python", "Web Security", "XSS"],
+        "image": "assets/xss.png",
+        "links": {
+          "github": "https://github.com/EmperialX/xss-automation",
+          "docs": "https://github.com/EmperialX/xss-automation#readme"
+        }
+      },
+      {
+        "id": "quickdir-powershell",
+        "category": "automation",
+        "title": "QuickDir PowerShell",
+        "year": "2024",
+        "description": "A powerful directory management tool that creates and manages custom directory shortcuts for efficient navigation in PowerShell sessions.",
+        "longDescription": "Simplifies PowerShell navigation by allowing users to create and manage directory shortcuts. Features include alias creation, persistent storage, and tab completion.",
+        "tools": ["PowerShell", "Python", "Automation", "CLI"],
+        "image": "assets/powershell.png",
+        "links": {
+          "github": "https://github.com/EmperialX/Directory-Shortcut-Powershell",
+          "docs": "https://github.com/EmperialX/Directory-Shortcut-Powershell#readme"
+        }
+      }
+    ]
+  }
